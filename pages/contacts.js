@@ -3,7 +3,7 @@ export default function ContactsPage() {
 <div class="relative">
     <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-gradient-to-b from-green-200 to-blue-200">
         <div class="flex gap-8 my-11">
-          <div class="h-24 w-24 overflow-hidden rounded-full ring-2 ring-gray-700 dark:ring-gray-100">
+          <div class="h-50 w-50 overflow-hidden rounded-full ring-2 ring-gray-700 dark:ring-gray-100">
               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1f6HIrAeyGfxu4Z70NaRf9bT1qviNuwqudw&s" alt="" class="w-full h-full object-cover"/>
           </div>
         </div>
