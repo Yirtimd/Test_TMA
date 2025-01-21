@@ -3,30 +3,32 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-black-100">
-      <Head>
-        <title>Telegram Mini App</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      </Head>
 
-      <header className="w-full p-4 bg-blue-500 text-white text-center">
-        <h1 className="text-2xl font-bold">Telegram Mini App</h1>
-      </header>
+<div className="h-screen w-screen bg-black flex justify-center items-center">
 
-      <main className="flex-grow p-4">
-        <p className="text-lg text-gray-700">Добро пожаловать в мини-приложение!</p>
-      </main>
+  <div className="relative inline-flex  group">
+      <div
+          className="absolute transitiona-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt">
+      </div>
+      <a href="/contacts" className="relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white transition-all duration-200 bg-gray-900 font-pj rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900" role="button">Get it now
+      </a>
+  </div>
+</div>
 
-      <footer className="w-full p-4 bg-gray-800 text-white text-center">
-        <p>© 2025 Mini App, Inc.</p>
-        <p className="mt-4 text-lg">
-        Узнайте больше о нас на странице <Link href="/about" className="text-blue-500 underline">О нас</Link>.
-        </p>
-        <p className="mt-4 text-lg">
-        Контакты <Link href="/contacts" className="text-blue-500 underline">Контакты</Link>.
-        </p>
-      </footer>
-    </div>
-    
+
+
   );
 }
+
+//     <p className="flex items-center text-indigo-700 border border-indigo-600 py-2 px-6 gap-2 rounded inline-flex items-center">
+// <Link href="/contacts">
+// <span>
+   // View More
+// </span>
+// <svg className="w-6 h-6 ml-2" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+   // viewBox="0 0 24 24">
+    //<path d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+//</svg>
+//</Link>.
+//</p>
+//       <Link href="/contacts"></Link>

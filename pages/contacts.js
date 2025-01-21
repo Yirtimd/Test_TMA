@@ -2,9 +2,9 @@ export default function ContactsPage() {
   return (
 <div class="relative">
     <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-gradient-to-b from-green-200 to-blue-200">
-        <div class="object-top my-12">
-          <div class="h-36 w-36 overflow-hidden rounded-full ring-2 ring-gray-700 dark:ring-gray-100">
-              <img src="https://staticg.sportskeeda.com/editor/2024/11/dff15-17308214950482-1920.jpg?w=640" alt=""/>
+        <div class="flex gap-8 my-11">
+          <div class="h-24 w-24 overflow-hidden rounded-full ring-2 ring-gray-700 dark:ring-gray-100">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1f6HIrAeyGfxu4Z70NaRf9bT1qviNuwqudw&s" alt="" class="w-full h-full object-cover"/>
           </div>
         </div>
         <div class="flex flex-wrap justify-center gap-6">
@@ -35,7 +35,6 @@ export default function ContactsPage() {
             class="absolute inset-0 w-full h-full object-cover rounded-2xl"
         />
       </div>
-      <h2 class="text-6xl font-bold text-black">Amazing!</h2>
     </div>
     <div
         class="sticky top-0 h-screen flex flex-col items-center justify-center bg-gradient-to-b from-purple-800 to-pink-800 text-white">
